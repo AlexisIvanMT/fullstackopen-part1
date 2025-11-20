@@ -9,10 +9,12 @@
 !1.6-1.11/
 !1.6-1.11/src/
 !1.6-1.11/src/App.jsx
+!1.6-1.11/App.jsx
 
 !1.12-1.15/
 !1.12-1.15/src/
 !1.12-1.15/src/App.jsx
+!1.12-1.15/App.jsx
 
 # También incluir README.md y .gitignore
 !README.md
