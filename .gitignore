@@ -1,10 +1,31 @@
-# Dependencias y builds
+# Ignorar todo en la raíz
+*
+
+# Pero NO ignorar las carpetas de entrega
+!part1/
+!part1/1.1-1.5/
+!part1/1.1-1.5/src/
+!part1/1.1-1.5/src/App.jsx
+
+!part1/1.6-1.11/
+!part1/1.6-1.11/src/
+!part1/1.6-1.11/src/App.jsx
+
+!part1/1.12-1.15/
+!part1/1.12-1.15/src/
+!part1/1.12-1.15/src/App.jsx
+
+# También incluir README.md y .gitignore
+!README.md
+!.gitignore
+
+# Ignorar node_modules y otros archivos innecesarios
 node_modules/
 dist/
 dist-ssr/
 *.local
 
-# Archivos de log
+# Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -23,15 +44,6 @@ lerna-debug.log*
 *.sln
 *.sw?
 
-# Archivos temporales y sistema
+# Archivos temporales
 *.tmp
 *.bak
-.DS_Store
-Thumbs.db
-
-# Archivos de entorno
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
