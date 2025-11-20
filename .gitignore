@@ -1,19 +1,18 @@
 # Ignorar todo en la raíz
 *
 
-# Pero NO ignorar las carpetas de entrega
-!part1/
-!part1/1.1-1.5/
-!part1/1.1-1.5/src/
-!part1/1.1-1.5/src/App.jsx
+# Pero NO ignorar las carpetas de entrega (rutas relativas a esta carpeta `part1/`)
+!1.1-1.5/
+!1.1-1.5/src/
+!1.1-1.5/src/App.jsx
 
-!part1/1.6-1.11/
-!part1/1.6-1.11/src/
-!part1/1.6-1.11/src/App.jsx
+!1.6-1.11/
+!1.6-1.11/src/
+!1.6-1.11/src/App.jsx
 
-!part1/1.12-1.15/
-!part1/1.12-1.15/src/
-!part1/1.12-1.15/src/App.jsx
+!1.12-1.15/
+!1.12-1.15/src/
+!1.12-1.15/src/App.jsx
 
 # También incluir README.md y .gitignore
 !README.md
