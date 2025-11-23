@@ -1,3 +1,31 @@
+# Parte 1: Introducción a React
+
+Este directorio contiene mis soluciones a los ejercicios de la **Parte 1** del curso [Full Stack Open](https://fullstackopen.com) de la Universidad de Helsinki. En esta sección se exploran los fundamentos del desarrollo con **React**: creación de componentes, gestión de estado, manejo de eventos y buenas prácticas de estructura del código.
+
+## 📂 Estructura del directorio
+
+Los ejercicios están organizados en carpetas por bloques temáticos:
+
+- **`1.1-1.5`**: Ejercicios 1 a 5  
+  → Introducción a React, componentes funcionales y uso de `props`.
+
+- **`1.6-1.11`**: Ejercicios 6 a 11  
+  → Manejo de estado con `useState`, eventos, renderizado condicional y listas con `key`.
+
+- **`1.12-1.15`**: Ejercicios 12 a 15  
+  →validación básica y refactorización de componentes.
+
+> ⚠️ Estas carpetas **no son proyectos de React completos**. Solo contienen los archivos fuente relevantes para cada bloque.  
+> El proyecto base (con `vite.config.js`, `package.json`, etc.) se usó localmente y no se incluye en el repositorio.
+
+
+## ▶️ Cómo ejecutar
+
+1. Crea un proyecto con vite de react.
+2. Sustituye el archivo App.js en el proyeto por cada una de las carpetas del repositorio.
+3. Instala dependencias con i install
+4. Corre el proyecto con npm run dev # o npm start, según la configuración
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
